@@ -22,4 +22,17 @@ public class TryingMethods {
         }
     }
 
+    public static void authentication(String userName, String password) {
+
+        if (userName == "Adamu" & password == "admin1234" ){
+    
+            System.out.println("Authentication success");
+    
+         }else if (userName == "uchechi" & password == "uchechi1234") {
+    
+            System.out.println(" Authentication success");
+
+         }else { System.out.println("Wrong password or username!"); };
+
+    }
 }
