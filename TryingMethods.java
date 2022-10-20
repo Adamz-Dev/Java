@@ -35,4 +35,14 @@ public class TryingMethods {
          }else { System.out.println("Wrong password or username!"); };
 
     }
+
+    public static int add() {
+        int result = 0;
+        int i=1;
+        while (i<1000) {
+            result += i;
+            i++;
+        }
+        return result;
+    }
 }
